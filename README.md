@@ -11,7 +11,7 @@ We are going to use its depth camera with ROS environment, in order to use it in
 3. Orbbec Astra 3D Camera
 
 ### Software constraints:
-We will use Python and Prolog.
+We will use Python, Prolog and ROS.
 We are going to follow the Sense-Think-Act paradigm.
 
 ### TO DO:
