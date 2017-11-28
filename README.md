@@ -29,3 +29,7 @@ Kobuki is able to forward camera data to its Prolog brain.
 Kobuki goes around into the room, avoiding obstacles and "looking" around thanks to the camera.
 Kobuki is able to forward camera data to its Prolog brain.
 Kobuki is able to detect people face and to recognize them (by making queries to its Prolog brain).
+
+### Links:
+-  http://www.nvidia.it/object/jetson-tk1-embedded-dev-kit-it.html
+-  https://developer.nvidia.com/embedded/jetpack
