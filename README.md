@@ -35,4 +35,4 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  https://developer.nvidia.com/embedded/jetpack
 -  https://demotomohiro.github.io/hardware/jetson_tk1/setup/recovery_mode.html
 #### Software Links:
--  http://wiki.ros.org/indigo/Installation/UbuntuARM (we have to use ROS Indigo, because we have Ubuntu 14.04, that is needed by CUDA)
+-  https://hub.docker.com/_/ros/: we have to use ROS Indigo (inside a Docker container, because Indigo is not compatible with Ubuntu 16.04, that we have on our PCs); we have Ubuntu 14.04 on JetsonTK1 board, because it is needed by CUDA.
