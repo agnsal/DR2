@@ -40,6 +40,7 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 #### Software Links:
 -  https://github.com/agnsal/docker-IndigoROSdisPyPl: we have to use ROS Indigo (inside a Docker container, because Indigo is not compatible with Ubuntu 16.04, that we have on our PCs); we have Ubuntu 14.04 on JetsonTK1 board, because it is needed by CUDA.
 -  http://wiki.ros.org/kinetic/Installation/Ubuntu
+-  https://www.generationrobots.com/blog/en/2015/02/robotic-simulation-scenarios-with-gazebo-and-ros/
 
 
 ## PC Instructions:
