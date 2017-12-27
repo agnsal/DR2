@@ -42,7 +42,7 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 
-## Instrucions:
+## Instructions:
 1. Follow the instructions at https://github.com/agnsal/docker-IndigoROSdisPyPl.
 2. **Install turtlebot ROS packages:** \
   sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-   simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
