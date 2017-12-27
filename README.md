@@ -17,7 +17,7 @@ We will use Docker to avoid compatibility conflicts.
 
 ### TO DO:
 1. Reconfigure JetsonTK1 board (Done)
-2. Configure Orbbec Astra 3D Camera
+2. Configure Orbbec Astra 3D Camera (Done)
 3. Create a communication channel between the camera and ROS environment
 4. Create a Docker container with all the needed environment in it to avoid compatibility conflicts (Done)
 5. Integrate Prolog in ROS environment
@@ -40,3 +40,9 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 #### Software Links:
 -  https://github.com/agnsal/docker-IndigoROSdisPyPl: we have to use ROS Indigo (inside a Docker container, because Indigo is not compatible with Ubuntu 16.04, that we have on our PCs); we have Ubuntu 14.04 on JetsonTK1 board, because it is needed by CUDA.
 -  http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+
+## Instrucions:
+1. Follow the instructions at https://github.com/agnsal/docker-IndigoROSdisPyPl.
+2. **Install turtlebot ROS packages:** \
+  sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-   simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
