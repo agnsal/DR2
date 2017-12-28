@@ -55,6 +55,8 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 5. **To download Turtlebot code into the workspace and build it:** \
   cd ~/catkin_ws \
   git clone https://github.com/agnsal/ROS-kobuki-rpi.git \
-  chmod +x sense.py
+  rm -r build \
+  rm -r devel \
+  catkin_make
 6. **To run the package components:** \
   
