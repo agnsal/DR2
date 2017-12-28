@@ -52,3 +52,9 @@ Kobuki is able to detect people face and to recognize them (by making queries to
   roslaunch turtlebot_gazebo turtlebot_world.launch
 4. **To give commands to the Gazebo turtlebot manually (via keyboard):** \
   roslaunch turtlebot_teleop keyboard_teleop.launch
+5. **To download Turtlebot code into the workspace and build it:** \
+  cd ~/catkin_ws \
+  git clone https://github.com/agnsal/ROS-kobuki-rpi.git \
+  chmod +x sense.py
+6. **To run the package components:** \
+  
