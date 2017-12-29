@@ -44,22 +44,17 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  https://www.youtube.com/watch?v=9U6GDonGFHw&t=796s
 
 
-## PC Instructions:
-1. Follow the instructions at https://github.com/agnsal/docker-IndigoROSdisPyPl.
-2. **Install turtlebot ROS packages:** \
+## Instructions:
+1. **(OPTIONAL, if you have all the needed hardware, so you don't want to make a simulation only) To have a clean ubuntu 14 installation on jetson TK1, follow the instructions at:** \
+  https://gitlab.com/Centofanti/JetsonTK1-ROS-Kobuki-install 
+2. **To have and use an Indigo ROS container, follow the instructions at:** \
+  https://github.com/agnsal/docker-IndigoROSdisPyPl
+3. **To Install turtlebot ROS packages:** \
   sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-   simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
-3. **To launch the simulation in Gazebo:** \
+4. **(TEST) To launch the simulation in Gazebo:** \
   roslaunch turtlebot_gazebo turtlebot_world.launch
-4. **To give commands to the Gazebo turtlebot manually (via keyboard):** \
+5. **(TEST) To give commands to the Gazebo turtlebot manually (via keyboard):** \
   roslaunch turtlebot_teleop keyboard_teleop.launch
-5. **To download Turtlebot code into the workspace and build it:** \
-  cd ~/catkin_ws \
-  git clone https://github.com/agnsal/ROS-kobuki-rpi.git \
-  mkdir kobuki-project \
-  mv ROS-kobuki-rpi/src kobuki-project \
-  rm -r ROS-kobuki-rpi \
-  rm -r build \
-  rm -r devel \
-  catkin_make
-6. **To run the package components:** \
+6. **To download Turtlebot code into the workspace, build it and run it, follow the instructions at:** \
+  https://github.com/agnsal/kobukiROSindigo
   
