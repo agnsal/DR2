@@ -18,10 +18,10 @@ We will use Docker to avoid compatibility conflicts.
 ### TO DO:
 1. Reconfigure JetsonTK1 board (Done)
 2. Configure Orbbec Astra 3D Camera (Done)
-3. Create a communication channel between the camera and ROS environment
+3. Create a communication channel between the camera and ROS environment (Done)
 4. Create a Docker container with all the needed environment in it to avoid compatibility conflicts (Done)
 5. Integrate Prolog in ROS environment
-6. Create a simulation and run it on the robot
+6. Create a simulation and run it on the robot (Working with a dummy simulation. We will add some effort here)
 5. (Optional) Facial recognition ability
 
 ### Use case 1:
@@ -45,8 +45,11 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
 
 ## (OPTIONAL, if you have all the needed hardware, so you don't want to make a simulation only) Robot Instructions:
-1. ** To have a clean ubuntu 14 installation on jetson TK1, follow the instructions at:** \
-  https://gitlab.com/Centofanti/JetsonTK1-ROS-Kobuki-install 
+1. ** Start with a clean Ubuntu 14 installation on jetson TK1, theb follow the instructions at:** \
+  https://gitlab.com/Centofanti/JetsonTK1-ROS-Kobuki-install
+2. ** Now you have a full working Ros Indigo installation wich is able to talk with kobuki base and Astra camera and a pre-configured catkin workspace at ~/catkin_ws
+**N.B.** Due to some incompatibility packages, it has not been possible to install ros-turtlebot packages on Jetson TK1. Ubunti dpkg has some missing packages and can not complete the apt-get installation. (Maybe some further time-costly investigations can fix this problem)
+3. ** It is recommended to connect to jetson using different instance of [putty client](http://www.putty.org/) to manage ROS modules.
 
 ## PC Instructions:
 1. **To have and use an Indigo ROS container, follow the instructions at:** \
