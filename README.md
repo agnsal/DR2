@@ -20,8 +20,8 @@ We will use Docker to avoid compatibility conflicts.
 2. Configure Orbbec Astra 3D Camera (Done)
 3. Create a communication channel between the camera and ROS environment (Done)
 4. Create a Docker container with all the needed environment in it to avoid compatibility conflicts (Done)
-5. Integrate Prolog in ROS environment
-6. Create a simulation and run it on the robot (Working with a dummy simulation. We will add some effort here)
+5. Integrate Prolog in ROS environment (Done)
+6. Create a simulation and run it on the robot (Working with a dummy simulation. We will add some effort here. Done)
 5. (Optional) Facial recognition ability
 
 ### Use case 1:
