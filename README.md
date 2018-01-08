@@ -43,6 +43,7 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  https://www.generationrobots.com/blog/en/2015/02/robotic-simulation-scenarios-with-gazebo-and-ros/
 -  https://www.youtube.com/watch?v=9U6GDonGFHw&t=796s
 -  http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv
+-  http://wiki.ros.org/kobuki/Tutorials/Kobuki%27s%20Control%20System
 
 ## (OPTIONAL, if you have all the needed hardware, so you don't want to make a simulation only) Robot Instructions:
 1. Start with a clean Ubuntu 14 installation on jetson TK1, theb follow the instructions at:** \
