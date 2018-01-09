@@ -11,9 +11,10 @@ We are going to use its depth camera with ROS environment, in order to use it in
 3. Orbbec Astra 3D Camera
 
 ### Software constraints:
-We will use Python, Prolog and ROS.
-We are going to follow the Sense-Think-Act paradigm.
-We will use Docker to avoid compatibility conflicts.
+- We will use Python, Prolog and ROS.
+- We are going to follow the Sense-Think-Act paradigm.
+- We will use Docker, in simulation, to avoid compatibility conflicts.
+- We will use ROS Indigo due to JetsonTK1 driver limitation (at the moment Ubuntu 16 has some problem)
 
 ### TO DO:
 1. Reconfigure JetsonTK1 board (Done)
