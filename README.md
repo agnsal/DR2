@@ -25,8 +25,8 @@ We will use Docker to avoid compatibility conflicts.
 5. (Optional) Facial recognition ability
 
 ### Use case 1:
-Kobuki goes around into the room, avoiding obstacles and "looking" around thanks to the camera.
-Kobuki is able to forward camera data to its Prolog brain.
+Kobuki goes around into the room, avoiding obstacles thanks to the bumper sensor.
+Kobuki is able to forward camera data to proper ROS topics.
 
 ### (Optional) Use case 2:
 Kobuki goes around into the room, avoiding obstacles and "looking" around thanks to the camera.
