@@ -1,5 +1,5 @@
 # DR2
-ISR-Lab project 2017
+> ISR-Lab project 2017
 
 ### What we are going to do:
 The robot we are going to work on is the Kobuki.
