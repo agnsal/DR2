@@ -55,18 +55,30 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 **N.B.** Due to some incompatibility packages, it has not been possible to install ros-turtlebot packages on Jetson TK1. Ubunti dpkg has some missing packages and can not complete the apt-get installation. (Maybe some further time-costly investigations can fix this problem)
 
 ## PC Instructions:
-1. **To have and use an Indigo ROS container, follow the instructions at:** \
-  https://github.com/agnsal/docker-IndigoROSdisPyPl
-2. **To Install turtlebot ROS packages:** \
-  sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions 
-  ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library 
-  ros-indigo-ar-track-alvar-msgs
-3. **To run the ROS core:** \
-  roscore
-4. **To launch the simulation in Gazebo:** \
-  roslaunch turtlebot_gazebo turtlebot_world.launch
-5. **(TEST) To give commands to the Gazebo turtlebot manually (via keyboard):** \
-  roslaunch turtlebot_teleop keyboard_teleop.launch
-6. **To download Turtlebot code into the workspace, build it and run it, follow the instructions at:** \
-  https://github.com/agnsal/kobukiROSindigo
+1. To have and use an Indigo ROS container, follow the instructions at:
+```sh
+https://github.com/agnsal/docker-IndigoROSdisPyPl
+```
+2. To Install turtlebot ROS packages:
+```sh
+sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions 
+ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library 
+ros-indigo-ar-track-alvar-msgs
+```
+3. To run the ROS core:
+```sh
+roscore
+```
+4. To launch the simulation in Gazebo:
+```sh
+roslaunch turtlebot_gazebo turtlebot_world.launch
+```
+5. (TEST) To give commands to the Gazebo turtlebot manually (via keyboard):
+```sh
+roslaunch turtlebot_teleop keyboard_teleop.launch
+```
+6. To download Turtlebot code into the workspace, build it and run it, follow the instructions at:
+```sh
+https://github.com/agnsal/kobukiROSindigo
+```
   
