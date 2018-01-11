@@ -16,6 +16,12 @@ We are going to use its depth camera with ROS environment, in order to use it in
 - We will use Docker, in simulation, to avoid compatibility conflicts.
 - We will use ROS Indigo due to JetsonTK1 driver limitation (at the moment Ubuntu 16 has some problem)
 
+
+![](header.png)
+
+![](headerDiagram.png)
+
+
 ### Project Goals:
 1. Reconfigure JetsonTK1 board (Done)
 2. Configure Orbbec Astra 3D Camera (Done)
@@ -81,3 +87,12 @@ roslaunch turtlebot_teleop keyboard_teleop.launch
 exit
 docker commit "IndigoROSdisPyPl"
 ```  
+
+
+## Screenshots:
+
+![](screen1.png)
+
+![](screen2.png)
+
+![](screen3.png)
