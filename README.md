@@ -75,4 +75,8 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 6. To download Turtlebot code into the workspace, build it and run it, follow the instructions at: https://github.com/agnsal/kobukiROSindigo
-  
+7. (IMPORTANT) To save all your work on the container, you have to exit it and save its state:
+```sh
+exit
+docker commit "IndigoROSdisPyPl"
+```  
