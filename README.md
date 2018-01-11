@@ -23,7 +23,8 @@ We are going to use its depth camera with ROS environment, in order to use it in
 4. Create a Docker container with all the needed environment in it to avoid compatibility conflicts (Done)
 5. Integrate Prolog in ROS environment (Done)
 6. Create a simulation and run it on the robot (Working with a dummy simulation. We will add some effort here. Done)
-5. (Optional) Facial recognition ability
+7. (Additional) Take camera timestamps and images (Done)
+8. (Optional) Facial recognition ability
 
 ### Use case 1:
 Kobuki goes around into the room, avoiding obstacles thanks to the bumper sensor.
