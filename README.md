@@ -1,9 +1,10 @@
 # DR2
 > ISR-Lab project 2017
 
-### What we are going to do:
-The robot we are going to work on is the Kobuki.
-We are going to use its depth camera with ROS environment, in order to use it in AI (so it will be compatible with SWI-Prolog, SICStus Prolog and DALI).
+### Project purpose:
+The robot we are working on is Kobuki. /
+We developed all the software environment to easily work on kobuki with ROS (both in a simulation and in the real world), integrating Prolog and Datalog solvers with the other technologies. /
+We provided Kobuki depth camera data, in order to use it in AI (so it will be compatible with SWI-Prolog, Datalog, SICStus Prolog and DALI).
 
 ### Needed hardware:
 1. Kobuki robot
@@ -11,7 +12,7 @@ We are going to use its depth camera with ROS environment, in order to use it in
 3. Orbbec Astra 3D Camera
 
 ### Software constraints:
-- We will use Python, Prolog and ROS.
+- We will use Python (2 and 3), Prolog and ROS.
 - We are going to follow the Sense-Think-Act paradigm.
 - We will use Docker, in simulation, to avoid compatibility conflicts.
 - We will use ROS Indigo due to JetsonTK1 driver limitation (at the moment Ubuntu 16 has some problem)
@@ -27,7 +28,7 @@ We are going to use its depth camera with ROS environment, in order to use it in
 2. Configure Orbbec Astra 3D Camera (Done)
 3. Create a communication channel between the camera and ROS environment (Done)
 4. Create a Docker container with all the needed environment in it to avoid compatibility conflicts (Done)
-5. Integrate Prolog in ROS environment (Done)
+5. Integrate Prolog and Datalog in ROS environment (Done)
 6. Create a simulation and run it on the robot (Working with a dummy simulation. We will add some effort here. Done)
 7. (Additional) Take camera timestamps and images (Done)
 8. (Optional) Facial recognition ability
