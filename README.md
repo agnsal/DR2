@@ -19,7 +19,7 @@ We are going to use its depth camera with ROS environment, in order to use it in
 
 ![](header.png)
 
-![](headerDiagram.png)
+![](nodeDiagram.png)
 
 
 ### Project Goals:
